@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Block Bypass",
+    "version": "0.1.0",
+    "author": "https://github.com/mangadi3859",
+    "description": "Change the block message to youtube embed iframe version",
+
+    "icons": {
+        "16": "images/isla-action.jpeg",
+        "48": "images/isla-action.jpeg",
+        "128": "images/isla-action.jpeg"
+    },
+    "permissions": ["activeTab", "webNavigation", "webRequest", "storage"],
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["dist/content-script.js"]
+        }
+    ]
+}

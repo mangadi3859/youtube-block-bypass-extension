@@ -1,0 +1,16 @@
+{
+    "name": "bypass-yt-block",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc",
+        "dev": "tsc --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    }
+}
