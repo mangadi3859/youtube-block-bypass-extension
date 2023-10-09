@@ -15,7 +15,7 @@ As you now know, [YouTube](https://www.youtube.com) is blocking users from acces
 
 This project is still in early development. feel free to share your thought in the discussion.
 
-## How does this extenstion work?
+## How does this extension work?
 
 While youtube does blocking users from accessing the video, users still able to watch the video using [YouTube Video Embed API](https://support.google.com/youtube/answer/171780?hl=en). This extension work by getting the video id then replacing the warning message with the embedded video.
 
