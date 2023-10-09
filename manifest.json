@@ -4,12 +4,12 @@
     "version": "0.1.0",
     "author": "https://github.com/mangadi3859",
     "description": "Change the block message to youtube embed iframe version",
-
     "icons": {
-        "16": "images/isla-action.jpeg",
-        "48": "images/isla-action.jpeg",
-        "128": "images/isla-action.jpeg"
+        "16": "images/isla-action.png",
+        "48": "images/isla-action.png",
+        "128": "images/isla-action.png"
     },
+
     "permissions": ["activeTab", "webNavigation", "webRequest", "storage"],
     "content_scripts": [
         {

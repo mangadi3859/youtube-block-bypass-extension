@@ -31,4 +31,24 @@ Well, i'm as the one making this extension will say that this extension is safe,
 
 ### Chrome:
 
--   Wait
+-   [Download](https://github.com/mangadi3859/youtube-block-bypass-extension/archive/refs/heads/main.zip) the zip file.
+
+-   Extract the zip file.
+
+-   Open chrom and got to [chrome://extension](chrome://extension).
+
+-   Turn on **Developer Mode** in the top right corner.
+    ![part-3](./images/part-3.png)
+
+-   Click **Load unpacked** button in the left corner. If this button doesn't show, make sure the developer mode is enabled.
+
+-   You will be brought to the file explorer, find and select the file you just extracted. It should be a folder.
+
+-   After that you should find an extension called **YouTube Block Bypass**
+    ![part-6](./images/part-6.png)
+
+-   Now you can try to watch youtube.
+
+### Note
+
+Take a note that this extension will only work after you get completely blocked after the [**3 strikes**](https://www.androidauthority.com/youtube-three-strikes-policy-block-ads-3340340/)
