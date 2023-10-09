@@ -21,7 +21,7 @@ While youtube does blocking users from accessing the video, users still able to 
 
 ## What's the catch?
 
-The video is 100% watchable but there are some feature that are absent from the video controller because the use of embed API.
+Most video are watchable but there are some feature that are absent from the video controller because the use of embed API.
 
 ## Is it safe?
 
