@@ -1,9 +1,9 @@
 <div align="center">
     <img src="images/youtube.png" width="30%" />
-    <h1>YouTube Block Baypass <br/> BETA</h1>
+    <h1>YouTube Block Bypass <br/> BETA</h1>
 
 ![version](https://img.shields.io/github/package-json/v/mangadi3859/youtube-block-bypass-extension?filename=package.json&style=flat-square&logo=json&logoColor=blue)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/mangadi3859/smk-pweb/main?logo=github&color=yellow)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/mangadi3859/youtube-block-bypass-extension/main?logo=github&color=yellow)
 [![issues](https://img.shields.io/github/issues/mangadi3859/youtube-block-bypass-extension?color=yellow&logo=github&logoColor=yellow&style=flat-square)](https://github.com/mangadi3859/doujin2/issues)
 [![typescript](https://img.shields.io/github/package-json/dependency-version/mangadi3859/youtube-block-bypass-extension/dev/typescript?logo=typescript&style=flat-square)](https://www.npmjs.com/package/typescript)
 
