@@ -35,7 +35,7 @@ Well, i'm as the one making this extension will say that this extension is safe,
 
 -   Extract the zip file.
 
--   Open chrome and got to [chrome://extension](chrome://extension).
+-   Open chrome and go to [chrome://extension](chrome://extension).
 
 -   Turn on **Developer Mode** in the top right corner.
     ![part-3](./images/part-3.png)
