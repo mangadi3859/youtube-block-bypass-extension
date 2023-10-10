@@ -1,8 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
 :root {
-    --accent-400: #FF3333:
-    --accent-300: #FF6666:
-    --accent-200: #FF9999:
-    --accent-150: #FFB2B2:
-    --accent-100: #FFCCCC:
-    --accent-50: #FFE5E5:
+    --accent-800: #660000;
+    --accent-600: #cc0000;
+    --accent-400: #ff3333;
+    --accent-300: #ff6666;
+    --accent-200: #ff9999;
+    --accent-150: #ffb2b2;
+    --accent-100: #ffcccc;
+    --accent-50: #ffe5e5;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", arial, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }

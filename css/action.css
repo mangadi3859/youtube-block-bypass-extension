@@ -1,0 +1,111 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+#action {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.75rem;
+    position: relative;
+    min-height: 15rem;
+}
+
+.icon {
+    width: 3rem;
+    height: auto;
+}
+
+.author {
+    opacity: 0.75;
+    font-size: 0.8rem;
+}
+
+.author a {
+    color: white;
+}
+
+.author a:where(:focus, :hover) {
+    color: var(--accent-400);
+}
+
+.version {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stamp {
+    background-color: rgba(204, 204, 204, 0.25);
+    padding: 0.2em 0.5em;
+    border-radius: 0.25em;
+}
+
+.toggle-group {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.75rem 1.25rem; */
+    isolation: isolate;
+    gap: 1rem;
+}
+
+.toggle-button {
+    /* padding: 0.1rem 0.5rem; */
+    position: relative;
+    background-color: white;
+    /* border: 1px solid var(--accent-400); */
+    border-radius: 100rem;
+    overflow: hidden;
+    width: 3.5rem;
+    aspect-ratio: 16/7;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#toggle-btn {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.circle-btn {
+    --pad: 5px;
+    position: absolute;
+    top: 50%;
+    left: calc(var(--pad) / 2);
+    background-color: #3f3f3f;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    height: calc(100% - var(--pad));
+    transform: translateY(-50%);
+    transition: 0.3s ease-in-out;
+}
+
+#toggle-btn:checked ~ .circle-btn {
+    /* left: unset; */
+    left: calc(50% + var(--pad));
+    background-color: var(--accent-50);
+}
+
+.toggle-button:has(#toggle-btn:checked) {
+    background-color: var(--accent-400);
+}

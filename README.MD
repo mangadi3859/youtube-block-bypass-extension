@@ -1,6 +1,6 @@
 <div align="center">
     <img src="images/icon.png" width="30%" />
-    <h1>YouTube Block Bypass <br/> BETA</h1>
+    <h1>YouTube Block Bypass BETA</h1>
 
 ![version](https://img.shields.io/github/package-json/v/mangadi3859/youtube-block-bypass-extension?filename=package.json&style=flat-square&logo=json&logoColor=blue)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/mangadi3859/youtube-block-bypass-extension/main?logo=github&color=yellow)
@@ -52,3 +52,10 @@ Well, i'm as the one making this extension will say that this extension is safe,
 ### Note
 
 Take a note that this extension will only work after you get completely blocked after the [**3 strikes**](https://www.androidauthority.com/youtube-three-strikes-policy-block-ads-3340340/)
+
+## Change Log
+
+### Version 0.1.5 BETA
+
+-   Added _ActionScript_ to toggle the extension.
+-   Change the icon.

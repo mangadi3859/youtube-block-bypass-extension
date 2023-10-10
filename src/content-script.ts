@@ -1,7 +1,12 @@
 const SESSION_NAME = "__yt_state";
+const __TOGGLE_SESSION_NAME = "__yt_toggle-state";
+
 let isBlocked = sessionStorage.getItem(SESSION_NAME) == "1";
 
-function start(): void {
+async function start(): Promise<void> {
+    let toggleState = (await chrome.storage.local.get(__TOGGLE_SESSION_NAME))[__TOGGLE_SESSION_NAME];
+    let isToggledOn = toggleState == null || toggleState == "1";
+    if (!isToggledOn) return;
     if (window.location.pathname != "/watch") return;
     const id = new URL(window.location.href).searchParams.get("v");
     if (!id) return console.log("[Youtube Block Bypass] Cannot find video id");
