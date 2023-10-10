@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="images/youtube.png" width="30%" />
+    <img src="images/icon.png" width="30%" />
     <h1>YouTube Block Bypass <br/> BETA</h1>
 
 ![version](https://img.shields.io/github/package-json/v/mangadi3859/youtube-block-bypass-extension?filename=package.json&style=flat-square&logo=json&logoColor=blue)
