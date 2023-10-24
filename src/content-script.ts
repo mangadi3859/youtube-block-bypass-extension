@@ -11,7 +11,7 @@ async function start(): Promise<void> {
     const id = new URL(window.location.href).searchParams.get("v");
     if (!id) return console.log("[Youtube Block Bypass] Cannot find video id");
 
-    const iframeHTML = `<iframe 
+    const iframeHTML = `<iframe id="yt-iframe-player"
     style="width: 100%; height: auto; aspect-ratio: 16/9;"
     src="https://www.youtube.com/embed/${id}?autoplay=1"
     title="Youtube Block Bypass"
@@ -25,6 +25,7 @@ async function start(): Promise<void> {
     </iframe>
     `;
 
+    document.querySelector("#yt-iframe-player");
     const player = <HTMLDivElement>document.querySelector("#player.ytd-watch-flexy");
     if (isBlocked) {
         player.innerHTML = iframeHTML;
@@ -41,5 +42,5 @@ async function start(): Promise<void> {
 
 document.addEventListener("yt-navigate-finish", () => {
     start();
-    window.addEventListener("hashchange", start);
+    // window.addEventListener("hashchange", start);
 });
